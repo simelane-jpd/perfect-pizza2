@@ -72,7 +72,7 @@ function BtnClick(event) {
     smallPizzaTotal.innerHTML = (smallQty * 59).toFixed(2);
     medPizzaTotal.innerHTML = (medQty * 79).toFixed(2);
     largePizzaTotal.innerHTML = (largeQty * 139).toFixed(2);
-    totalCart = smallQty * 59.00 + medQty * 79.00 + largeQty * 139.00;
+    totalCart = smallQty * 49.00 + medQty * 89.00 + largeQty * 129.00;
     cartTotal.innerHTML = totalCart.toFixed(2);
 
     if (totalCart > 0) {
@@ -106,7 +106,7 @@ function payment() {
         smallPizzaTotal.innerHTML = (smallQty * 59).toFixed(2);
         medPizzaTotal.innerHTML = (medQty * 79).toFixed(2);
         largePizzaTotal.innerHTML = (largeQty * 139).toFixed(2);
-        totalCart = smallQty * 59.00 + medQty * 79.00 + largeQty * 139.00;
+        totalCart = smallQty * 49.00 + medQty * 89.00 + largeQty * 129.00;
         cartTotal.innerHTML = totalCart.toFixed(2);
 
         setTimeout(function () {
@@ -132,7 +132,7 @@ function payment() {
         smallPizzaTotal.innerHTML = (smallQty * 59).toFixed(2);
         medPizzaTotal.innerHTML = (medQty * 79).toFixed(2);
         largePizzaTotal.innerHTML = (largeQty * 139).toFixed(2);
-        totalCart = smallQty * 59.00 + medQty * 79.00 + largeQty * 139.00;
+        totalCart = smallQty * 49.00 + medQty * 89.00 + largeQty * 129.00;
         cartTotal.innerHTML = totalCart.toFixed(2);
 
         setTimeout(function () {
