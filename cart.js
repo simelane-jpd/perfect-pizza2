@@ -69,9 +69,9 @@ function BtnClick(event) {
         largePizzaQty.innerHTML = largeQty;
     }
 
-    smallPizzaTotal.innerHTML = (smallQty * 59).toFixed(2);
-    medPizzaTotal.innerHTML = (medQty * 79).toFixed(2);
-    largePizzaTotal.innerHTML = (largeQty * 139).toFixed(2);
+    smallPizzaTotal.innerHTML = (smallQty * 49.00).toFixed(2);
+    medPizzaTotal.innerHTML = (medQty * 89.00).toFixed(2);
+    largePizzaTotal.innerHTML = (largeQty * 129.00).toFixed(2);
     totalCart = smallQty * 49.00 + medQty * 89.00 + largeQty * 129.00;
     cartTotal.innerHTML = totalCart.toFixed(2);
 
@@ -103,9 +103,9 @@ function payment() {
         medPizzaQty.innerHTML = medQty;
         largePizzaQty.innerHTML = largeQty;
 
-        smallPizzaTotal.innerHTML = (smallQty * 59).toFixed(2);
-        medPizzaTotal.innerHTML = (medQty * 79).toFixed(2);
-        largePizzaTotal.innerHTML = (largeQty * 139).toFixed(2);
+        smallPizzaTotal.innerHTML = (smallQty * 49.00).toFixed(2);
+        medPizzaTotal.innerHTML = (medQty * 89.00).toFixed(2);
+        largePizzaTotal.innerHTML = (largeQty * 129.00).toFixed(2);
         totalCart = smallQty * 49.00 + medQty * 89.00 + largeQty * 129.00;
         cartTotal.innerHTML = totalCart.toFixed(2);
 
@@ -129,9 +129,9 @@ function payment() {
         medPizzaQty.innerHTML = medQty;
         largePizzaQty.innerHTML = largeQty;
 
-        smallPizzaTotal.innerHTML = (smallQty * 59).toFixed(2);
-        medPizzaTotal.innerHTML = (medQty * 79).toFixed(2);
-        largePizzaTotal.innerHTML = (largeQty * 139).toFixed(2);
+        smallPizzaTotal.innerHTML = (smallQty * 49.00).toFixed(2);
+        medPizzaTotal.innerHTML = (medQty * 89.00).toFixed(2);
+        largePizzaTotal.innerHTML = (largeQty * 129.00).toFixed(2);
         totalCart = smallQty * 49.00 + medQty * 89.00 + largeQty * 129.00;
         cartTotal.innerHTML = totalCart.toFixed(2);
 
@@ -143,7 +143,7 @@ function payment() {
         }, 4500);
 
     } else {
-        containerBox.style.backgroundColor='rgba (120, 255, 120, 0,95)';
+        containerBox.style.backgroundColor='rgba (255, 120, 120, 0,95)';
         message.innerHTML = "Declined! Insufficients funds";
         setTimeout(function () {
             containerBox.classList.add('hidden');
